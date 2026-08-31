@@ -60,6 +60,6 @@ must be certified by the experimenter.
 ## Citation and archival release
 
 Please cite the associated manuscript and the archived `v1.0.0` release. The
-software citation metadata are provided in `CITATION.cff`; the archival DOI
-must be added to the manuscript metadata after Zenodo has processed the GitHub
-release.
+software citation metadata are provided in `CITATION.cff`. The immutable
+release is archived at <https://doi.org/10.5281/zenodo.22208160>; the concept
+DOI for all versions is <https://doi.org/10.5281/zenodo.22208159>.

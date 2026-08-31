@@ -12,10 +12,12 @@
 - Integration status: GitHub and ORCID linked; repository integration and
   release immutability author-confirmed on 2026-08-29
 - Release date: 2026-08-31
-- Git commit: recorded by the immutable GitHub tag
-- Archival DOI: assigned by Zenodo after the GitHub release is published
+- Git commit: `99eba438f3672ac57f6a88803043c193a7523119`
+- GitHub release: https://github.com/Liangxiong920/normGM/releases/tag/v1.0.0
+- Zenodo version DOI: https://doi.org/10.5281/zenodo.22208160
+- Zenodo concept DOI: https://doi.org/10.5281/zenodo.22208159
 
 The authors confirmed the final byline, funding record, contribution metadata,
 AI-use disclosure, competing-interest statement, and literature-priority audit
-on 2026-08-31. The DOI and commit identifier are recorded only after the
-external release records exist.
+on 2026-08-31. GitHub reports the release as immutable, and Zenodo archived the
+tag on the same date.
