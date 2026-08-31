@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the archived release and the associated manuscript."
+title: "Reproducibility material for Multiscale Schmidt-Spectrum Bounds for High-Dimensional Entanglement"
+type: software
+authors:
+  - family-names: "Xiong"
+    given-names: "Liang"
+    orcid: "https://orcid.org/0000-0002-2444-8243"
+  - family-names: "Sze"
+    given-names: "Nung-sing"
+    orcid: "https://orcid.org/0000-0003-1567-2654"
+abstract: >-
+  Python scripts, numerical outputs, and statistical input templates supporting
+  multiscale Schmidt-spectrum bounds, geometric entanglement measures, and
+  Schmidt-number-witness calculations.
+keywords:
+  - "high-dimensional entanglement"
+  - "Schmidt spectrum"
+  - "Vidal monotones"
+  - "Schmidt-number witnesses"
+  - "convex roof"
+repository-code: "https://github.com/Liangxiong920/normGM"
+license: MIT
+version: "1.0.0"
+date-released: 2026-08-31

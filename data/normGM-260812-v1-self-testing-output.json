@@ -1,0 +1,299 @@
+{
+  "digitization_scope": "integer central bar heights from a 300-dpi rendering; no calibrated pixel-to-amplitude uncertainty model",
+  "manuscript_decimal_places": 3,
+  "render_dpi": 300,
+  "rows": [
+    {
+      "adapted_bounds": {
+        "2": 0.5643136578195914,
+        "3": 0.2971829420256132,
+        "4": 0.09856730876167803
+      },
+      "digitized_amplitude_heights": [
+        325,
+        320,
+        305,
+        293
+      ],
+      "largest_activated_r": 4,
+      "largest_coefficient_bounds": {
+        "2": 0.4227381503264025,
+        "3": 0.18609200491539624,
+        "4": 0.03355725328498243
+      },
+      "reference_probabilities": [
+        0.2730040656605471,
+        0.26466855691020136,
+        0.24043742682198713,
+        0.22188995060726444
+      ],
+      "reported_standard_deviation": 0.003,
+      "screening_fidelity": 0.971,
+      "state": "psi_0",
+      "tomography_fidelity": 0.974
+    },
+    {
+      "adapted_bounds": {
+        "2": 0.5393291289346394,
+        "3": 0.28702239548923686,
+        "4": 0.09005828518787423
+      },
+      "digitized_amplitude_heights": [
+        321,
+        311,
+        309,
+        303
+      ],
+      "largest_activated_r": 4,
+      "largest_coefficient_bounds": {
+        "2": 0.4411382108421409,
+        "3": 0.20076259445190464,
+        "4": 0.040567399223464994
+      },
+      "reference_probabilities": [
+        0.2662200427849488,
+        0.2498914874487149,
+        0.24668778355363102,
+        0.23720068621270526
+      ],
+      "reported_standard_deviation": 0.001,
+      "screening_fidelity": 0.959,
+      "state": "psi_1",
+      "tomography_fidelity": 0.96
+    },
+    {
+      "adapted_bounds": {
+        "2": 0.559549534749613,
+        "3": 0.308955524716826,
+        "4": 0.10426975835822676
+      },
+      "digitized_amplitude_heights": [
+        323,
+        309,
+        309,
+        303
+      ],
+      "largest_activated_r": 4,
+      "largest_coefficient_bounds": {
+        "2": 0.43675372526599365,
+        "3": 0.19723523003625582,
+        "4": 0.03884231041489773
+      },
+      "reference_probabilities": [
+        0.26951433738052183,
+        0.24665719452337898,
+        0.24665719452337898,
+        0.23717127357272022
+      ],
+      "reported_standard_deviation": 0.001,
+      "screening_fidelity": 0.968,
+      "state": "psi_2",
+      "tomography_fidelity": 0.969
+    },
+    {
+      "adapted_bounds": {
+        "2": 0.5710193290986624,
+        "3": 0.3120619208006397,
+        "4": 0.10516331078178875
+      },
+      "digitized_amplitude_heights": [
+        314,
+        313,
+        311,
+        307
+      ],
+      "largest_activated_r": 4,
+      "largest_coefficient_bounds": {
+        "2": 0.5344851095071045,
+        "3": 0.28046030108658304,
+        "4": 0.08526097769648351
+      },
+      "reference_probabilities": [
+        0.2544183106042035,
+        0.25280039222263795,
+        0.24958003793205774,
+        0.2432012592411008
+      ],
+      "reported_standard_deviation": 0.002,
+      "screening_fidelity": 0.966,
+      "state": "psi_3",
+      "tomography_fidelity": 0.968
+    },
+    {
+      "adapted_bounds": {
+        "2": 0.5193643925581096,
+        "3": 0.2617638059822491,
+        "4": 0.07401198063136791
+      },
+      "digitized_amplitude_heights": [
+        317,
+        316,
+        310,
+        303
+      ],
+      "largest_activated_r": 4,
+      "largest_coefficient_bounds": {
+        "2": 0.46547800896073405,
+        "3": 0.22069967455649767,
+        "4": 0.050759636800597405
+      },
+      "reference_probabilities": [
+        0.2588228324756474,
+        0.2571924564846724,
+        0.24751837714485878,
+        0.23646633389482144
+      ],
+      "reported_standard_deviation": 0.004,
+      "screening_fidelity": 0.947,
+      "state": "psi_4",
+      "tomography_fidelity": 0.951
+    },
+    {
+      "adapted_bounds": {
+        "2": 0.32624811087875016,
+        "3": 0.10701398047435337,
+        "4": 0.018544290337270574
+      },
+      "digitized_amplitude_heights": [
+        324,
+        239,
+        179,
+        151
+      ],
+      "largest_activated_r": 4,
+      "largest_coefficient_bounds": {
+        "2": 0.06575453572114828,
+        "3": 0.0,
+        "4": 0.0
+      },
+      "reference_probabilities": [
+        0.48389639483910224,
+        0.26330443119955377,
+        0.14769589608138695,
+        0.10510327787995703
+      ],
+      "reported_standard_deviation": 0.003,
+      "screening_fidelity": 0.963,
+      "state": "psi_5",
+      "tomography_fidelity": 0.966
+    },
+    {
+      "adapted_bounds": {
+        "2": 0.2895848534241033,
+        "3": 0.06833961887879048,
+        "4": 0.0
+      },
+      "digitized_amplitude_heights": [
+        329,
+        249,
+        199,
+        85
+      ],
+      "largest_activated_r": 3,
+      "largest_coefficient_bounds": {
+        "2": 0.056309635727188806,
+        "3": 0.0,
+        "4": 0.0
+      },
+      "reference_probabilities": [
+        0.4986501925663847,
+        0.28562938802587207,
+        0.1824359186982881,
+        0.0332845007094551
+      ],
+      "reported_standard_deviation": 0.004,
+      "screening_fidelity": 0.953,
+      "state": "psi_6",
+      "tomography_fidelity": 0.957
+    },
+    {
+      "adapted_bounds": {
+        "2": 0.37622517495197383,
+        "3": 0.05540701166222284,
+        "4": 0.009394728500773554
+      },
+      "digitized_amplitude_heights": [
+        296,
+        293,
+        145,
+        144
+      ],
+      "largest_activated_r": 4,
+      "largest_coefficient_bounds": {
+        "2": 0.11595506165365159,
+        "3": 0.007321814633987231,
+        "4": 0.0
+      },
+      "reference_probabilities": [
+        0.40708836293012923,
+        0.3988783882988115,
+        0.09768801167145233,
+        0.09634523709960692
+      ],
+      "reported_standard_deviation": 0.002,
+      "screening_fidelity": 0.953,
+      "state": "psi_7",
+      "tomography_fidelity": 0.955
+    },
+    {
+      "adapted_bounds": {
+        "2": 0.10409160642896761,
+        "3": 0.022183151328482264,
+        "4": 0.0
+      },
+      "digitized_amplitude_heights": [
+        314,
+        142,
+        141,
+        2
+      ],
+      "largest_activated_r": 3,
+      "largest_coefficient_bounds": {
+        "2": 0.008135362559668667,
+        "3": 0.0,
+        "4": 0.0
+      },
+      "reference_probabilities": [
+        0.7111399617728732,
+        0.14543618594251506,
+        0.1433950016228497,
+        2.885066176205417e-05
+      ],
+      "reported_standard_deviation": 0.006,
+      "screening_fidelity": 0.944,
+      "state": "psi_8",
+      "tomography_fidelity": 0.95
+    },
+    {
+      "adapted_bounds": {
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0
+      },
+      "digitized_amplitude_heights": [
+        298,
+        14,
+        10,
+        0
+      ],
+      "largest_activated_r": null,
+      "largest_coefficient_bounds": {
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0
+      },
+      "reference_probabilities": [
+        0.9966778900112233,
+        0.0021997755331088662,
+        0.001122334455667789,
+        0.0
+      ],
+      "reported_standard_deviation": 0.004,
+      "screening_fidelity": 0.977,
+      "state": "psi_9",
+      "tomography_fidelity": 0.981
+    }
+  ],
+  "source_doi": "10.1038/s41534-018-0120-0",
+  "statistical_scope": "F_T minus one reported standard deviation is a screening input, not a one-sided confidence bound"
+}

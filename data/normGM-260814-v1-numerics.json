@@ -1,0 +1,432 @@
+{
+  "software": {
+    "python": "3.12.13",
+    "numpy": "2.3.5",
+    "scipy": "1.18.1",
+    "seed": 20260806,
+    "pure_optimizer": "SLSQP on general complex coefficient matrices",
+    "mixed_optimizer": "rank-rho HJW ensembles with complex Givens search",
+    "pure_starts": 10,
+    "mixed_starts": 8,
+    "mixed_proposals_per_start": 2500
+  },
+  "pure_checks": [
+    {
+      "dimension": 3,
+      "threshold": 2,
+      "head_weight": 0.64380996018326,
+      "fidelity": 0.839714482082467,
+      "analytic_value": 0.05092295592953381,
+      "numerical_value": 0.05092295592934976,
+      "absolute_gap": 1.8404722190723533e-13,
+      "constraint_residual": 4.118927421359331e-13,
+      "successful_starts": 10
+    },
+    {
+      "dimension": 3,
+      "threshold": 3,
+      "head_weight": 0.8707894652760344,
+      "fidelity": 0.9418552593742155,
+      "analytic_value": 0.015335525834579387,
+      "numerical_value": 0.01533552583433597,
+      "absolute_gap": 2.4341813287254155e-13,
+      "constraint_residual": 5.133671265866724e-13,
+      "successful_starts": 10
+    },
+    {
+      "dimension": 3,
+      "threshold": 3,
+      "head_weight": 0.9646963966372661,
+      "fidelity": 0.9841133784867697,
+      "analytic_value": 0.00391835780168263,
+      "numerical_value": 0.003918357801450693,
+      "absolute_gap": 2.3193686554678905e-13,
+      "constraint_residual": 4.987121826616203e-13,
+      "successful_starts": 10
+    },
+    {
+      "dimension": 4,
+      "threshold": 2,
+      "head_weight": 0.35310429820405825,
+      "fidelity": 0.7088969341918263,
+      "analytic_value": 0.12714837792595954,
+      "numerical_value": 0.1271483779256661,
+      "absolute_gap": 2.9343194540842887e-13,
+      "constraint_residual": 8.091305403468141e-13,
+      "successful_starts": 10
+    },
+    {
+      "dimension": 4,
+      "threshold": 3,
+      "head_weight": 0.6894640138874826,
+      "fidelity": 0.8602588062493672,
+      "analytic_value": 0.04262564400265531,
+      "numerical_value": 0.042625644002405795,
+      "absolute_gap": 2.495156858906e-13,
+      "constraint_residual": 6.123990203832363e-13,
+      "successful_starts": 10
+    },
+    {
+      "dimension": 4,
+      "threshold": 4,
+      "head_weight": 0.9961181174637848,
+      "fidelity": 0.9982531528587031,
+      "analytic_value": 0.0004217360744632113,
+      "numerical_value": 0.00042173607406488707,
+      "absolute_gap": 3.983242229978201e-13,
+      "constraint_residual": 8.211209490127658e-13,
+      "successful_starts": 10
+    }
+  ],
+  "colored_noise": [
+    {
+      "dimension": 4,
+      "threshold": 3,
+      "nonuniformity": 0.2,
+      "basis_angle": 0.25,
+      "color": 0.45,
+      "visibility": 0.6,
+      "fidelity": 0.6779240550777843,
+      "main_lower_bound": 0.006802454372955582,
+      "nu1_lower_bound": 0.00022086853778520841,
+      "hjw_upper_bound": 0.07687063427393664,
+      "lower_upper_gap": 0.07006817990098106,
+      "state_rank": 4,
+      "reconstruction_residual": 1.8384273648319054e-15
+    },
+    {
+      "dimension": 4,
+      "threshold": 3,
+      "nonuniformity": 0.2,
+      "basis_angle": 0.25,
+      "color": 0.45,
+      "visibility": 0.7,
+      "fidelity": 0.7469985288492872,
+      "main_lower_bound": 0.02506884387793849,
+      "nu1_lower_bound": 0.0045526677804168395,
+      "hjw_upper_bound": 0.11783906485691574,
+      "lower_upper_gap": 0.09277022097897725,
+      "state_rank": 4,
+      "reconstruction_residual": 6.335368281708926e-16
+    },
+    {
+      "dimension": 4,
+      "threshold": 3,
+      "nonuniformity": 0.2,
+      "basis_angle": 0.25,
+      "color": 0.45,
+      "visibility": 0.8,
+      "fidelity": 0.8160730026207902,
+      "main_lower_bound": 0.0578117615738943,
+      "nu1_lower_bound": 0.01455906622557875,
+      "hjw_upper_bound": 0.17483252436186114,
+      "lower_upper_gap": 0.11702076278796683,
+      "state_rank": 4,
+      "reconstruction_residual": 6.307990771050304e-16
+    },
+    {
+      "dimension": 4,
+      "threshold": 3,
+      "nonuniformity": 0.2,
+      "basis_angle": 0.25,
+      "color": 0.45,
+      "visibility": 0.9,
+      "fidelity": 0.8851474763922929,
+      "main_lower_bound": 0.11140980858851816,
+      "nu1_lower_bound": 0.030602829380101663,
+      "hjw_upper_bound": 0.26228177870648095,
+      "lower_upper_gap": 0.15087197011796277,
+      "state_rank": 4,
+      "reconstruction_residual": 3.827529417003065e-16
+    },
+    {
+      "dimension": 4,
+      "threshold": 3,
+      "nonuniformity": 0.2,
+      "basis_angle": 0.25,
+      "color": 0.45,
+      "visibility": 0.95,
+      "fidelity": 0.9196847132780444,
+      "main_lower_bound": 0.1507303793332303,
+      "nu1_lower_bound": 0.04107724888030256,
+      "hjw_upper_bound": 0.3290083642277476,
+      "lower_upper_gap": 0.1782779848945173,
+      "state_rank": 4,
+      "reconstruction_residual": 8.351044125266383e-16
+    }
+  ],
+  "dimension_scan": [
+    {
+      "dimension": 3,
+      "threshold": 3,
+      "nonuniformity": 0.2,
+      "basis_angle": 0.25,
+      "color": 0.45,
+      "visibility": 0.9,
+      "fidelity": 0.8890384756045073,
+      "main_lower_bound": 0.04184771897159296,
+      "nu1_lower_bound": 0.006025253463421407,
+      "hjw_upper_bound": 0.12178312192250937,
+      "lower_upper_gap": 0.07993540295091642,
+      "state_rank": 3,
+      "reconstruction_residual": 1.5368818055950474e-15
+    },
+    {
+      "dimension": 3,
+      "threshold": 3,
+      "nonuniformity": 0.6,
+      "basis_angle": 0.25,
+      "color": 0.45,
+      "visibility": 0.9,
+      "fidelity": 0.847154140042618,
+      "main_lower_bound": 0.00018666487512649253,
+      "nu1_lower_bound": 0.0,
+      "hjw_upper_bound": 0.12178312192250937,
+      "lower_upper_gap": 0.12159645704738288,
+      "state_rank": 3,
+      "reconstruction_residual": 1.5368818055950474e-15
+    },
+    {
+      "dimension": 3,
+      "threshold": 3,
+      "nonuniformity": 1.0,
+      "basis_angle": 0.25,
+      "color": 0.45,
+      "visibility": 0.9,
+      "fidelity": 0.7786384866646858,
+      "main_lower_bound": 0.0,
+      "nu1_lower_bound": 0.0,
+      "hjw_upper_bound": 0.12178312192250937,
+      "lower_upper_gap": 0.12178312192250937,
+      "state_rank": 3,
+      "reconstruction_residual": 1.5368818055950474e-15
+    },
+    {
+      "dimension": 4,
+      "threshold": 3,
+      "nonuniformity": 0.2,
+      "basis_angle": 0.25,
+      "color": 0.45,
+      "visibility": 0.9,
+      "fidelity": 0.8851474763922929,
+      "main_lower_bound": 0.11140980858851816,
+      "nu1_lower_bound": 0.030602829380101663,
+      "hjw_upper_bound": 0.26228177870648095,
+      "lower_upper_gap": 0.15087197011796277,
+      "state_rank": 4,
+      "reconstruction_residual": 3.827529417003065e-16
+    },
+    {
+      "dimension": 4,
+      "threshold": 3,
+      "nonuniformity": 0.6,
+      "basis_angle": 0.25,
+      "color": 0.45,
+      "visibility": 0.9,
+      "fidelity": 0.8102143474132575,
+      "main_lower_bound": 0.002616781345345366,
+      "nu1_lower_bound": 0.0,
+      "hjw_upper_bound": 0.26228177870648095,
+      "lower_upper_gap": 0.2596649973611356,
+      "state_rank": 4,
+      "reconstruction_residual": 3.827529417003065e-16
+    },
+    {
+      "dimension": 4,
+      "threshold": 3,
+      "nonuniformity": 1.0,
+      "basis_angle": 0.25,
+      "color": 0.45,
+      "visibility": 0.9,
+      "fidelity": 0.702513248754277,
+      "main_lower_bound": 0.0,
+      "nu1_lower_bound": 0.0,
+      "hjw_upper_bound": 0.26228177870648095,
+      "lower_upper_gap": 0.26228177870648095,
+      "state_rank": 4,
+      "reconstruction_residual": 3.827529417003065e-16
+    },
+    {
+      "dimension": 5,
+      "threshold": 3,
+      "nonuniformity": 0.2,
+      "basis_angle": 0.25,
+      "color": 0.45,
+      "visibility": 0.9,
+      "fidelity": 0.8796250498172304,
+      "main_lower_bound": 0.1585439724929591,
+      "nu1_lower_bound": 0.04558417994141543,
+      "hjw_upper_bound": 0.34914867177684483,
+      "lower_upper_gap": 0.19060469928388574,
+      "state_rank": 5,
+      "reconstruction_residual": 3.5049586858442823e-16
+    },
+    {
+      "dimension": 5,
+      "threshold": 3,
+      "nonuniformity": 0.6,
+      "basis_angle": 0.25,
+      "color": 0.45,
+      "visibility": 0.9,
+      "fidelity": 0.7682514504484929,
+      "main_lower_bound": 0.0014449949399063112,
+      "nu1_lower_bound": 0.0,
+      "hjw_upper_bound": 0.34914867177684483,
+      "lower_upper_gap": 0.34770367683693854,
+      "state_rank": 5,
+      "reconstruction_residual": 3.5049586858442823e-16
+    },
+    {
+      "dimension": 5,
+      "threshold": 3,
+      "nonuniformity": 1.0,
+      "basis_angle": 0.25,
+      "color": 0.45,
+      "visibility": 0.9,
+      "fidelity": 0.6287347953044865,
+      "main_lower_bound": 0.0,
+      "nu1_lower_bound": 0.0,
+      "hjw_upper_bound": 0.34914867177684483,
+      "lower_upper_gap": 0.34914867177684483,
+      "state_rank": 5,
+      "reconstruction_residual": 3.5049586858442823e-16
+    }
+  ],
+  "weighted_comparison": {
+    "display_fidelity": 0.9256,
+    "display_full_spectrum": 0.13977207779356793,
+    "display_auxiliary": 0.06367838816117885,
+    "maximum_positive_difference": 0.2510309521614402,
+    "maximum_difference_fidelity": 1.0,
+    "positive_difference_integral": 0.017036037581091082,
+    "grid_size": 20001,
+    "auxiliary_advantage_example": {
+      "probabilities": [
+        0.28,
+        0.27,
+        0.24,
+        0.21
+      ],
+      "fidelity": 0.47,
+      "full_spectrum": 0.012870013424366746,
+      "auxiliary": 0.018105083645322553
+    },
+    "strict_activation_example": {
+      "probabilities": [
+        0.4,
+        0.3,
+        0.2,
+        0.1
+      ],
+      "weights": [
+        0.0,
+        0.5,
+        0.5
+      ],
+      "fidelity": 0.75,
+      "full_spectrum": 0.0015686516701557075,
+      "auxiliary": 0.0,
+      "best": 0.0015686516701557075
+    }
+  },
+  "exact_two_qubit_benchmark": [
+    {
+      "mixture_probability": 0.4,
+      "reference_fidelity": 0.8572751340309451,
+      "concurrence": 0.8601536144949945,
+      "exact_E2": 0.24498247144990387,
+      "reference_bound": 0.11623379073516872,
+      "relative_tightness": 0.47445758076996625,
+      "maximally_entangled_fidelity": 0.8504460460416249,
+      "maximally_entangled_bound": 0.14336633808094987
+    },
+    {
+      "mixture_probability": 0.6,
+      "reference_fidelity": 0.9048500893539634,
+      "concurrence": 0.8694045284197959,
+      "exact_E2": 0.25294951631136586,
+      "reference_bound": 0.1675638973886473,
+      "relative_tightness": 0.6624400782897172,
+      "maximally_entangled_fidelity": 0.8994619368788532,
+      "maximally_entangled_bound": 0.19928391964346986
+    },
+    {
+      "mixture_probability": 0.8,
+      "reference_fidelity": 0.9524250446769817,
+      "concurrence": 0.9161019694261673,
+      "exact_E2": 0.29952732005738436,
+      "reference_bound": 0.2429593294412311,
+      "relative_tightness": 0.8111424673872294,
+      "maximally_entangled_fidelity": 0.9484778277160815,
+      "maximally_entangled_bound": 0.2789397411404195
+    },
+    {
+      "mixture_probability": 0.9,
+      "reference_fidelity": 0.976212522338491,
+      "concurrence": 0.9519448937607244,
+      "exact_E2": 0.34686532133210074,
+      "reference_bound": 0.30075613325125694,
+      "relative_tightness": 0.867068901832659,
+      "maximally_entangled_fidelity": 0.9729857731346958,
+      "maximally_entangled_bound": 0.337875176446745
+    }
+  ],
+  "finite_sample_analysis": {
+    "successes": 410,
+    "trials": 500,
+    "alpha": 0.01,
+    "estimate": 0.82,
+    "hoeffding_lower": 0.7521385957558488,
+    "clopper_pearson_lower": 0.7765235307253391,
+    "hoeffding_E4_bound": 6.115610702294967e-06,
+    "clopper_pearson_E4_bound": 0.0009736954758514266,
+    "true_fidelity_for_power": 0.82,
+    "hoeffding_power": 0.5740174328556903,
+    "clopper_pearson_power": 0.9253975687950873,
+    "hoeffding_false_negative": 0.4259825671443097,
+    "clopper_pearson_false_negative": 0.07460243120491272,
+    "hoeffding_sufficient_counts_by_margin": {
+      "0.07": 1370,
+      "0.05": 2685,
+      "0.02": 16776
+    },
+    "spectrum_calibration_counts": [
+      {
+        "dimension": 8,
+        "cut": 4,
+        "count_delta_0.05": 1771,
+        "count_delta_0.01": 44269
+      },
+      {
+        "dimension": 32,
+        "cut": 16,
+        "count_delta_0.05": 4964,
+        "count_delta_0.01": 124098
+      },
+      {
+        "dimension": 1021,
+        "cut": 510,
+        "count_delta_0.05": 141724,
+        "count_delta_0.01": 3543089
+      }
+    ]
+  },
+  "measurement_resource_example": {
+    "probabilities": [
+      0.4,
+      0.3,
+      0.2,
+      0.1
+    ],
+    "settings": 13,
+    "shots_per_setting": 2000,
+    "total_shots": 26000,
+    "maximum_basis_switches": 12,
+    "failure_probability": 0.01,
+    "confidence": 0.99,
+    "coefficient_square_sum": 0.8600000000000001,
+    "hoeffding_radius": 0.06293207735288706,
+    "diagonal_joint_outcome_bins": 16,
+    "off_diagonal_aggregated_joint_outcome_bins": 9
+  }
+}

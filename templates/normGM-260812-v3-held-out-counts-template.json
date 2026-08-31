@@ -1,0 +1,32 @@
+{
+  "analysis_id": "AUTHOR_TO_FILL",
+  "analysis_mode": "held_out_selected_reference",
+  "selection_protocol": "calibration_then_independent_holdout",
+  "data_provenance": {
+    "source": "AUTHOR_TO_FILL",
+    "calibration_record_id": null,
+    "test_record_id": null,
+    "raw_file_sha256": null
+  },
+  "assumption_checks": {
+    "sampling_model_justified": false,
+    "stopping_rule_documented": false,
+    "measurement_operator_validated": false,
+    "target_frozen_before_test": false,
+    "calibration_test_independence_justified": false,
+    "dimension_scope": "AUTHOR_TO_FILL"
+  },
+  "selected_target_probabilities": [
+    null,
+    null
+  ],
+  "thresholds": [
+    2
+  ],
+  "fidelity_counts": {
+    "successes": null,
+    "trials": null,
+    "failure_probability": 0.005
+  },
+  "projector_operator_error": 0.0
+}

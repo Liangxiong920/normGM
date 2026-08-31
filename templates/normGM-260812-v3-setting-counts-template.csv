@@ -1,0 +1,2 @@
+record_id,dataset_role,batch_id,timestamp_utc,setting_id,setting_a,setting_b,outcome_a,outcome_b,raw_count,total_trials,exposure_seconds,accidental_count,background_subtracted,efficiency_corrected,notes
+AUTHOR_TO_FILL,calibration_or_test,AUTHOR_TO_FILL,AUTHOR_TO_FILL,AUTHOR_TO_FILL,AUTHOR_TO_FILL,AUTHOR_TO_FILL,AUTHOR_TO_FILL,AUTHOR_TO_FILL,AUTHOR_TO_FILL,AUTHOR_TO_FILL,AUTHOR_TO_FILL,AUTHOR_TO_FILL,false,false,AUTHOR_TO_FILL
